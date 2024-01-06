@@ -11,19 +11,19 @@ setInterval(() => {
 
 // change background img by time
 
-if (date.getHours() === 1 && date.getMinutes() === 30) {
+if (date.getHours() === 1 && date.getMinutes() === 40) {
     body.style.backgroundColor = 'red';
     body.style.backgroundImage = 'url(./img/1838407_0.jpg)';
     prayer.innerHTML = 'صلاة العصر';
     body.style.color = 'black'
     audio.play();
-} else if (date.getHours() === 1 && date.getMinutes() === 31) {
+} else if (date.getHours() === 1 && date.getMinutes() === 41) {
     body.style.backgroundColor = 'green';
     body.style.backgroundImage = 'url(./img/azan1.jpg)';
     prayer.innerHTML = 'صلاة المغرب';
     body.style.color = 'gold'
     audio.play();
-} else if (date.getHours() === 1 && date.getMinutes() === 32) {
+} else if (date.getHours() === 1 && date.getMinutes() === 42) {
     body.style.backgroundColor = 'gold';
     body.style.backgroundImage = 'url(./img/download.jpg)';
     prayer.innerHTML = 'صلاة العشاء';
